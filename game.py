@@ -11,10 +11,12 @@ gravity = 1000
 grounded = False
 
 #setup player
-player_pos = pygame.math.Vector2(0, screen.get_height() / 2)
+player_pos = pygame.math.Vector2(0,
+                                 screen.get_height() / 2)
 player_size = pygame.math.Vector2(50, 50)
 player_velocity = pygame.math.Vector2(0,0)
-player_shape = pygame.Rect(player_pos.x, player_pos.y, player_size.x, player_size.y)
+player_shape = pygame.Rect(player_pos.x, player_pos.y, player_size.x,
+  player_size.y)
 player_velocity.x = 100
 player_velocity.y = 0
 
